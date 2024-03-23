@@ -1,0 +1,17 @@
+<title>sample page and download</title>
+<script src="AAAD/js/main.js"></script>
+<h1>Edit page</h1>
+HTML
+<textarea id="HTML"></textarea>
+<br>AAAD
+<textarea id="AAAD"></textarea><br>
+<button onclick="zikkou">反映</button>
+<div id="bit">
+</div>
+<aaad id="aaada"></aaad>
+<script>
+  function zikkou(){
+    document.getElementById("aaada").innerHTML=document.getElementById("AAAD").value
+    document.getElementById("bit").innerHTML=document.getElementById("HTML").value
+  }
+</script>
